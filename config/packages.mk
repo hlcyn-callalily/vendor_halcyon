@@ -1,7 +1,7 @@
 # APN list
 PRODUCT_PACKAGES += \
     apns-conf.xml
-	
+
 # Binaries
 PRODUCT_PACKAGES += \
     bash \
@@ -169,6 +169,10 @@ PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
     system/etc/textclassifier/lang_id.model \
     system/etc/textclassifier/textclassifier.en.model \
     system/etc/textclassifier/textclassifier.universal.model
+
+# TouchGestures
+PRODUCT_PACKAGES += \
+    TouchGestures
 
 # Include GMS If exist
 ifeq ($(WITH_GMS),true)
