@@ -58,6 +58,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGE_OVERLAYS += vendor/halcyon/overlay/dictionaries
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/halcyon/overlay/dictionaries
 
+# LMO Freeform
+PRODUCT_PACKAGES += \
+    LMOFreeform \
+    LMOFreeformSidebar
+
 # Launcher
 ifeq ($(PRODUCT_TYPE), go)
 PRODUCT_PACKAGES += \
