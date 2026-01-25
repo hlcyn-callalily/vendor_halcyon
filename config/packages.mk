@@ -63,23 +63,20 @@ PRODUCT_PACKAGES += \
     LMOFreeform \
     LMOFreeformSidebar
 
-# Launcher
+# Nest Launcher
 ifeq ($(PRODUCT_TYPE), go)
 PRODUCT_PACKAGES += \
-    Launcher3QuickStepGo
+    NestQuickStepGo
 
 PRODUCT_DEXPREOPT_SPEED_APPS += \
-    Launcher3QuickStepGo
+    NestQuickStepGo
 else
 PRODUCT_PACKAGES += \
-    Launcher3QuickStep
+    NestQuickStep
 
 PRODUCT_DEXPREOPT_SPEED_APPS += \
-    Launcher3QuickStep
+    NestQuickStep
 endif
-
-PRODUCT_PACKAGES += \
-    Launcher3Overlay
 
 # Overlays
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/halcyon/overlay/no-rro
