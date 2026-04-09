@@ -126,7 +126,7 @@ PRODUCT_COPY_FILES += \
     vendor/halcyon/prebuilt/common/etc/init/init.halcyon-updater.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.halcyon-updater.rc
 
 PRODUCT_PRODUCT_PROPERTIES += \
-    setupwizard.theme=glif_v4 \
+    setupwizard.theme=glif_expressive \
     setupwizard.feature.day_night_mode_enabled=true
 
 # SystemUI
